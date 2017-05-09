@@ -1,1 +1,123 @@
-syt.html
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>盛业资本</title>
+		
+		<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="./css/lib.css">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+	</head>
+	<body >
+		<header >
+			<div class="container">
+				<div class="logo dib">
+					<a href="./index.html"><img src="./images/logo.png" alt="盛业资本"></a>
+				</div>
+				<nav class="nav dib fr">
+					<ul>
+						<li><a href="./index.html" >首页</a></li>
+						<li><a href="./about.html" >关于公司</a></li>
+						<li><a href="./bussiness.html" >公司业务</a></li>
+						<li><a href="./syt.html" class="active">盛易通</a></li>
+						<!-- <li><a href="./investor-relation.html">投资者关系</a></li> -->
+						<li><a href="./join-us.html">加入我们</a></li>
+						<li><a href="./duty.html">社会责任</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section class="about_bg">
+			<div class="clearfix"></div>
+			
+			<section class="content">
+				<h2 class="news_area-header">
+				盛易通
+				</h2>
+				<section class="pt20">
+					<p>盛易通，是盛业商业保理针对产业的核心企业及其供应链上的价值企业提出的一整套创新供应链金融管理服务产品，主要针对中小企业融资难、成本高、效率低缺乏专业管理以及核心企业供应链整合与账款管理等需求设计开发的。它不只是解决产业链上中小企业的融资的问题，更是为供应链上的价值企业提供的全方位整体供应链金融管理服务解决平台。</p>
+					<p>盛易通集保理融资、账款管理、用户管理于一体，以为企业提供更安全的账款管理、更便捷流程管理、更便宜、更透明的保理融资以及更专业金融综合服务为标准，将实力资本与优质产业供应链相结合，丰富了企业融资渠道，优化建立更稳固的供应合作关系，打造完美黄金供应链。真实实现了核心企业、价值企业与盛业保理三方多赢共赢的局面，为企业发展创造更大可能。</p>
+					
+					<p>盛易通，发掘供应链金融价值。</p>
+					<div class="tac">
+					<p>盛易通供应链金融服务模型：</p>
+					<img src="./images/syt1.jpg">
+					<p>加入盛易通流程步骤：</p>
+					<img src="./images/syt2.jpg">
+					<p>盛易通价值优势：</p>
+					<img src="./images/syt3.jpg">
+					</div>
+					
+										</section>
+									</section>
+								</section>
+								<footer >
+									<div class="container psr">
+										<nav class="tips_link">
+											<ul>
+												<li><a href="./maps.html" target="_blank">网站地图</a></li>
+												
+												
+												<li><a href="./website-declaration.html" target="_blank">网站说明</a></li>
+												
+												<li><a class="last" href="./contacts.html" target="_blank">联系方式</a></li>
+											</ul>
+										</nav>
+										<div class="copyright tac">
+											@ 2015盛业资本版权所有，不得转载，粤ICP备15034373号-1
+										</div>
+										
+									</div>
+									
+								</footer>
+								<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+								<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+								<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+								<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+								<!-- <script src="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.2/js/umd/carousel.js"></script> -->
+								<script type="text/javascript">
+
+								function change(tag) {
+									$('.arrow').not('.'+tag+' .arrow').html('▾')
+										if($('.'+tag+' .arrow').html()=='▸'){
+											$('.'+tag+' .arrow').html('▾')
+										}else {
+											$('.'+tag+' .arrow').html('▸')
+										}
+								}
+									$('.rjgcs').click(function(event) {
+										$('.job-des').not('.rjgcs-des').hide();
+										$('.rjgcs-des').toggle();
+										change('rjgcs')
+										
+									});
+									$('.fkzg').click(function(event) {
+										$('.job-des').not('.fkzg-des').hide();
+										$('.fkzg-des').toggle();
+										change('fkzg')
+										
+									});
+									$('.rzzj').click(function(event) {
+										$('.job-des').not('.rzzj-des').hide();
+										$('.rzzj-des').toggle();
+										change('rzzj')
+									});
+									$('.kfzysh').click(function(event) {
+										$('.job-des').not('.kfzysh-des').hide();
+										$('.kfzysh-des').toggle();
+										change('kfzysh')
+									});
+									$('.khjl').click(function(event) {
+										$('.job-des').not('.khjl-des').hide();
+										$('.khjl-des').toggle();
+										change('khjl')
+									});
+									$('.khjlsh').click(function(event) {
+										$('.job-des').not('.khjlsh-des').hide();
+										$('.khjlsh-des').toggle();
+										change('khjlsh')
+									});
+								</script>
+							</body>
+						</html>
