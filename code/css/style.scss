@@ -392,6 +392,7 @@ footer {
         font-size: 22px;
         font-weight: bold;
         margin-bottom: 3px;
+        color:#E85613;
     }
 
     .contact-address {
@@ -605,4 +606,38 @@ footer {
 
 .cont {
     text-align: left;
+}
+
+
+.big-event-header {
+    font-weight:bold;
+    font-size:18px;
+   
+
+}
+ .big-event-header-ul li {
+    height:30px;
+    line-height: 30px;
+ }
+ .big-event-header-ul li:before{
+        // list-style: initial;
+        // list-style-position:inside;
+        // margin-left: 20px;
+        // 
+            content: "";
+            width:5px;
+            height:5px;
+            border-radius:50%;
+            background-color:#EB4A00;
+            display:inline-block;
+            vertical-align:middle;
+            margin-right:5px;
+            margin-left:65px;
+        
+}
+
+.big-event-align {
+    min-width:800px;
+    max-width:1000px;
+    margin:0 auto;
 }
